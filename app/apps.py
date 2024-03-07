@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class OlasConfig(AppConfig):
+class AppConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'olas'
+    name = 'app'
